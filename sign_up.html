@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shayapizza</title>
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="lab5.css">
+</head>
+
+<body>
+    <!-- Навігаційна панель -->
+    <nav class="navbar">
+        <!-- Назва сайту -->
+        <a href="file:///E:/nuft/lab5/lab5.html" class="site-title">Shayapizza</a>
+    </nav>
+    <div class="registration-container">
+        <h2>Реєстрація</h2>
+        <form action="/submit_registration" method="post">
+            <label for="username">Ім'я користувача</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="email">Електронна пошта</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Пароль</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirm-password">Підтвердити пароль</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+
+            <button type="submit">Зареєструватися</button>
+        </form>
+    </div>
+</body>
